@@ -1,0 +1,6 @@
+version: '3'
+
+services:
+  validate_transactions:
+    build: ./
+    command: python3 process_transactions.py
