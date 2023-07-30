@@ -1,6 +1,6 @@
-# Crypto/Payments Hiring Test
+# BitChain Analyzer
 
-At \_\_\_\_ , we receive thousands of deposits from customers per day. This test is designed to test your ability to work with a transaction set that could get returned by a blockchain daemon like bitcoind.
+At \_\_\_\_ , we receive thousands of deposits from customers per day. This project is designed to showcase the ability to work with a transaction set that could get returned by a blockchain daemon like bitcoind.
 
 The data we work with in this scenario comes from bitcoind’s rpc call `listsinceblock`. A frequently used approach to detect incoming deposits is to periodically call `listsinceblock` and process the returned data. This test contains 2 json files that represent the data from 2 separate calls to this endpoint. Your task is to write code that processes those files and detects all valid incoming deposits.
 
